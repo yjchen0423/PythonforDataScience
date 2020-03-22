@@ -1,0 +1,22 @@
+{
+        // Workspace Settings
+
+    // virtual environments 中的 python 執行檔
+    "python.pythonPath": "C:\\Users\\yjche\\anaconda3\\envs\\venv_ds\\python.exe",
+    // 可以設定你放全部的 venvs 環境的根目錄資料夾
+    "python.venvPath": "C:\\Users\\yjche\\anaconda3\\envs\\venv_ds",
+
+    "python.terminal.activateEnvironment": true, // 自動啟動環境
+    "python.linting.pylintEnabled": true,  // 需要 pip install pylint
+    "python.linting.enabled": true,  // 需要 pip install pylint
+
+    "python.autoComplete.extraPaths": [
+        "C:\\Users\\yjche\\anaconda3\\envs\\venv_ds",  // 設定你的 venv 的環境目錄資料夾，為了偵測一些 python library
+        "C:\\Users\\yjche\\OneDrive\\Python\\DataScience", // 目的是偵測自己自定義的 class
+    ],
+    "python.autoComplete.addBrackets": true, // 是否自動加上括號 (等等文章會補充說明)
+    "files.autoSave": "afterDelay", // delay 後儲存
+    "files.autoSaveDelay": 500,    // 延遲 500ms
+
+
+}
